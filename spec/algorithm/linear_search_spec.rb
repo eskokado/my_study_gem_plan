@@ -1,9 +1,9 @@
 require 'rspec'
-require_relative '../../lib/algorithm/linear_search.rb_copy'
+require_relative '../../lib/my_study_gem_plan'
 RSpec.describe "Linear Search" do
   value = 20
   array = [10, 50, 30, 70, 80, 60, 20, 90, 40]
-  linearSearch = MyStudyGemPlan::MyLinearSearch.new
+  linearSearch = MyStudyGemPlan::Algorithm::MyLinearSearch.new
   it "ensure search element #{value} is found" do
     result = linearSearch.search_array(array, value)
     expect(result).to eq("Target element is found")
