@@ -1,3 +1,4 @@
+# require 'lib/my_study_gem_plan/version'
 class BinarySearch
   def binarySearch(array, search, low, high)
     if low && high

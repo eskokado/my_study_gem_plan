@@ -1,3 +1,4 @@
+# require 'lib/my_study_gem_plan/version'
 class LinearSearch
   def search_array(arr, value_search)
     message = "Element is not found"

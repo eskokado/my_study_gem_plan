@@ -1,8 +1,8 @@
 require "my_study_gem_plan/version"
 # require 'lib/algorithm/linear_search'
 # require 'lib/algorithm/binary_search'
-require_relative '../lib/algorithm/binary_search.rb'
-require_relative '../lib/algorithm/linear_search.rb'
+require_relative 'my_study_gem_plan/algorithm/rch.rb'
+require_relative 'my_study_gem_plan/algorithm/rch.rb'
 module MyStudyGemPlan
   class Error < StandardError; end
   # Your code goes here...
